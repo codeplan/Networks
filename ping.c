@@ -1,4 +1,4 @@
-//make two empty file with name upo.txt and s.txt
+//make two empty file with name upo.txt and upips.txt
 /*This is the program in c to check which of the systems are up right now
  * in the series od 10.104.X.X in the current N/W
  *The systems which are up will be stored in upips.txt
@@ -38,9 +38,7 @@ system(strmain);
 
 pt=fopen("upo.txt","r+");
 ft=fopen("upips.txt","a");
-
 fseek(pt,-2,SEEK_END);
-
 
 ch=fgetc(pt);
 printf("%c\n",ch);
@@ -53,16 +51,7 @@ total++;
 }
 
 fclose(pt);
-
 fclose(ft);
 
-
 }
-
-
-
-
-
-
 return 0;}
-
