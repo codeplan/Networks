@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+##A simple program in PYTHON to implement 'traceroute' and search the country name of the different hops from the GeoIp databade##
 import socket
 import sys
 import csv
